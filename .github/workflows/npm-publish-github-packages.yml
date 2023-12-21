@@ -36,7 +36,7 @@ jobs:
       # 执行部署
       - name: 部署
         # 这个 action 会根据配置自动推送代码到指定分支
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+        uses: JamesIves/try-help-custom-chat@releases/v3
         with:
           # 指定密钥，即在第一步中设置的
           ACCESS_TOKEN: ${{ secrets.TRY_HELP_CUSTOM_CHAT_TOKEN }}
@@ -47,4 +47,4 @@ jobs:
       - run: npm publish
         env:
           # 刚刚设置的 NPM_TOKEN
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.REPO_TOKEN}}

@@ -1,10 +1,9 @@
 {
   "name": "try-help-custom-chat",
-  "version": "2.5.0",
+  "version": "1.0.0",
   "description": "A simple and beautiful Vue chat component backend agnostic.",
   "main": "./dist/try-help-custom-chat.umd.min.js",
-  "repository": "https://github.com/mattmezza/try-help-custom-chat.git",
-  "author": "Matteo Merola <mattmezza@gmail.com>",
+  "repository": "https://github.com/Hico-T/try-help-custom-chat",
   "license": "MIT",
   "scripts": {
     "build": "vue-cli-service build --target lib --name try-help-custom-chat --formats umd-min src/index.js",
@@ -50,7 +49,8 @@
     "vue",
     "vuejs",
     "chat",
-    "vue-js-chat"
+    "vue-js-chat",
+    "try-help-custom-chat"
   ],
   "husky": {
     "hooks": {
