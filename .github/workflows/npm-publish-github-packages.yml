@@ -36,7 +36,7 @@ jobs:
       # 执行部署
       - name: 部署
         # 这个 action 会根据配置自动推送代码到指定分支
-        uses: JamesIves/try-help-custom-chat@releases/v3
+        uses: JamesIves/main@releases/v3
         with:
           # 指定密钥，即在第一步中设置的
           ACCESS_TOKEN: ${{ secrets.TRY_HELP_CUSTOM_CHAT_TOKEN }}
