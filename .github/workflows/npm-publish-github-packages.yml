@@ -1,4 +1,4 @@
-name: Publish Package to npmjs
+name: Node.js Package
 
 on:
   push:
