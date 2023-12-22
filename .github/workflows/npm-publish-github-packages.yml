@@ -25,7 +25,7 @@ jobs:
         with:
           node-version: 14.x
           # 设置发包 npm 地址仓库
-          registry-url: https://registry.npmjs.org
+          registry-url: https://registry.npmjs.org/
       # 安装依赖，相当于 npm ci
       - name: Install dependencies 📦️
         run: npm install
