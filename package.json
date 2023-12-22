@@ -1,6 +1,6 @@
 {
   "name": "try-help-custom-chat",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple and beautiful Vue chat component backend agnostic.",
   "main": "./dist/try-help-custom-chat.umd.min.js",
   "repository": "https://github.com/Hico-T/try-help-custom-chat",
